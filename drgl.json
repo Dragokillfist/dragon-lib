@@ -1,0 +1,15 @@
+{
+	"id": "dragonlib",
+	"name": "DragonLib",
+	"display_name": "DL",
+	"author": ["drago"],
+	"description": "A library of calc contexts.",
+	"prefix": "drgl",
+	"main_file": "drago.lua",
+	"priority": 0,
+	"badge_colour": "321d0e",
+	"badge_text_colour": "97572b",
+	"version": "0.8.6a",
+	"dependencies": [
+	]
+}
