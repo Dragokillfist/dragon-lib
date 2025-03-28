@@ -2,6 +2,16 @@ drgl = {}
 
 DL = drgl
 
+--example of a function that can only be used if the specified mod is enabled
+--[[
+if next(SMODS.find_mod('Cryptid')) then
+	function DL.press(context)
+		return context.cry_press
+	end
+end
+
+]]
+
 -- playing card contexts
 
 -- used for card scoring
