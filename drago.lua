@@ -18,6 +18,6 @@ else
 	assert(SMODS.load_file("Functions/Mainlib.lua"))()
 end
 
-if nest(SMODS.find_mod("MagicTheJokering")) then
+if next(SMODS.find_mod("MagicTheJokering")) then
 	assert(SMODS.load_file("Functions/MTGlib.lua"))()
 end
