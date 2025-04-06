@@ -12,6 +12,8 @@ end
 
 ]]
 
+assert(SMODS.load_file("Functions/Defaults.lua"))()
+
 if next(SMODS.find_mod('Cryptid')) then
 	assert(SMODS.load_file("Functions/Crylib.lua"))()
 else
